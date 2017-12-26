@@ -749,7 +749,7 @@ section#services .service-box {
 	transition: all 0.3s ease-in-out;
 }
 section#services .span3:hover {
-	background:#e3e3e3;
+	background:#e3e3e344;
 }
 
 section#services .service-box h2 {
