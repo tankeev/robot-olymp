@@ -50,15 +50,21 @@ box-shadow: 0 1px 4px rgba(0,0,0,.2);
 -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
 zoom: 1;
 }
-.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
-.loading .flex-viewport {max-height: 300px;}
+.flex-viewport {max-height: 200px; margin-top: 0%; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 200px;}
 .flexslider .slides {zoom: 1;}
+@media(max-height:800px)  {
+	.flex-viewport{
+		 max-height: 65px;
+		 margin-top: 0%;
+	}
+}
 
 .carousel li {margin-right: 5px}
 
 
 /* Direction Nav */
-.flex-direction-nav { margin: 50px 0 0; }
+.flex-direction-nav { margin: 70px 0 0; }
 .flex-direction-nav a {
 	display: block; 
 	z-index: 10; cursor: pointer; 
@@ -103,8 +109,3 @@ zoom: 1;
 .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
-
-@media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
-  .flex-direction-nav .flex-next {opacity: 1; right: 0;}
-}

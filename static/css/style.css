@@ -179,11 +179,10 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-body, input, textarea {
-}
+
 
 a {
-  color: #454545;
+  color: #45454500;
   text-decoration: none;
 }
 
@@ -274,10 +273,6 @@ h2.pagetitle {
 04. Navigation
 ============================================================ */
 
-.navbar-fixed-top .container {
-/* Uncomment to make nav expand full width */
- /*	width: auto; */
-}
 
 .cnt-nav{
 	padding:0px 0px 0px 0px;
@@ -379,14 +374,22 @@ header .logo {
 }
 
 #main-flexslider ul.slides li p {
-	font-size: 72px;
+	font-size: 50px;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
-	color:#fff;
+	color:rgb(255, 255, 255);
 }
+									
+/*when screen gets samller change the slider*********************/
+@media (max-width:500px){
+	#main-flexslider ul.slides li p {
+	font-size: 30px;
+	}
+}
+
 #main-flexslider.flexslider {
 		margin:0;
 		background:none;
@@ -445,7 +448,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 80px;
+	padding: 10px 0 80px;
 }
 section.section h4 {
 	text-align: center;
@@ -873,7 +876,6 @@ section#about {
 
 #tweet ul li:before {
 	font-family: 'FontAwesome';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1690,7 +1692,7 @@ i.icon-white {
  display: block;
  text-align:center
 }
- .job-position: {
+ .job-position {
  margin-bottom: 1.5em;
 }
  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
@@ -1705,4 +1707,26 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+
+
+@media (max-width : 1008px) {
+	.navbar .navbar-brand img {
+	width: 40%;	
+    position: static;
+    padding: 20px 10px;
+    z-index: -1;
+
+}}
+
+@media (max-width : 500px) {
+	.navbar .navbar-brand img {
+	width: 60%;	
+    position: static;
+    padding: 20px 10px;
+    z-index: -1;
+
+}}}
+
+.categ{
+	text-decoration: none;
 }
