@@ -65,6 +65,11 @@ zoom: 1;
 	margin-top: 150px
 }}
 
+@media(min-width:501px) and (max-width: 770px){
+.flex-viewport{
+	margin-top: 59px
+}}
+
 .carousel li {margin-right: 5px}
 
 

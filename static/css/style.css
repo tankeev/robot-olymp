@@ -340,9 +340,32 @@ ul#menu-main > li > a:focus {
 	min-height: 400px;
 	margin-top: -150px;
 	padding-top: 150px;
-    padding-bottom: 110px;
+    padding-bottom: 58px;
 	text-align:center;
 }
+@media(min-width:1400px){
+	#header-wrapper {
+    padding-bottom: 95px;
+	text-align:center;
+}
+}
+@media(max-width:500px){
+	#header-wrapper {
+	width: 100%;
+	min-height: 400px;
+	margin-top: -150px;
+	padding-top: 150px;
+    padding-bottom: 51px;
+	text-align:center;
+}
+}
+@media(min-width: 500px) and (max-width: 770px){
+	#header-wrapper {
+    padding-bottom: 71px;
+	
+}
+}
+
 
 
 #header-wrapper h1 {
