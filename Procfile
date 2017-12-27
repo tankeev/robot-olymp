@@ -1,0 +1,1 @@
+web: gunicorn robot-olymp.wsgi --log-file -

@@ -11,6 +11,13 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from decouple import config
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
+
+from dj_database_url import parse as dburl
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +33,7 @@ SECRET_KEY = '2qe7zenko_t-r=*-@7t$ig5qcolc)qp10*s4t=3k^!4j-vv08+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['robot-olymp.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -71,17 +78,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'robot_olymp.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.11/ref/settinasdasgs/#databases
+default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'robot',
-        'USER': 'root',
-        'PASSWORD': 'kyrgyzstan1'
-    }
-}
+DATABASES = { 'default': config('DATABASE_URL', default=default_dburl, cast=dburl), }
+
+
 
 
 # Password validation
@@ -126,3 +127,5 @@ STATIC_URL =  "/static/"
 STATICFILES_DIRS = [
     BASE_DIR + "/static/"
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')

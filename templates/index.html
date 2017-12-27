@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="{% static 'css/style_countdown.css' %}" id="theme-stylesheet">
 	<!-- Custom stylesheet - for your changes-->
 	<link rel="stylesheet" href="{% static 'css/custom_countdown.css' %}">
+	<link rel="stylesheet" href="{% static 'css/facts.css' %}">
 </head>
 
 <body>
@@ -474,20 +475,39 @@
 		</div>
 	</section>
 	<!-- spacer section -->
-	<section class="spacer bg3">
-		<div class="container">
-			<div class="row">
-				<div class="span12 aligncenter flyLeft">
-					<blockquote class="large">
-						We are an established and trusted web agency with a reputation for commitment and high integrity
-					</blockquote>
-				</div>
-				<div class="span12 aligncenter flyRight">
-					<i class="icon-rocket icon-10x"></i>
-				</div>
+	<section id="facts">
+		<div class="container wow fadeIn">
+			<div class="section-header">
+				<h3 class="section-title">Facts</h3>
+				<p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
 			</div>
+			<div class="row-counters">
+	
+				<div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">232</span>
+					<p class="facts">Clients</p>
+				</div>
+	
+				<div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">521</span>
+					<p class="facts">Projects</p>
+				</div>
+	
+				<div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">1,463</span>
+					<p class="facts">Hours Of Support</p>
+				</div>
+	
+				<div class="col-lg-3 col-6 text-center">
+					<span data-toggle="counter-up">15</span>
+					<p class="facts">Hard Workers</p>
+				</div>
+	
+			</div>
+	
 		</div>
 	</section>
+	<!-- #facts -->
 	<!-- end spacer section -->
 	<!-- section: blog -->
 	<section id="blog" class="section">
@@ -670,6 +690,7 @@
 	<script src="{% static 'js/jquery.cookie.js' %}"></script>
 	<script src="{% static 'js/jquery.countdown.min.js' %}"></script>
 	<script src="{% static 'js/front_countdown.js' %}"></script
+	<script src="{% static 'js/facts.js' %}"></script
 
 </body>
 
