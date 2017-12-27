@@ -60,7 +60,7 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 }
 
 .portfolio .portfolio-overlay {
-	background: #1BAC91;
+	background: rgba(27, 172, 146, 0.644);
 }
 
 /* icon */
