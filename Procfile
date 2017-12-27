@@ -1,1 +1,1 @@
-web: gunicorn robotsapat.wsgi --log-file -
+web: gunicorn robot-olymp.wsgi --log-file -
