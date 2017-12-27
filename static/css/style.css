@@ -1765,6 +1765,15 @@ i.icon-white {
     font-weight: 700;
 }
 
+@media(max-width:500px){
+	.title-year{
+		font-size: 39px;
+	}
+	.title-text{
+		font-size: 39px;
+	}
+}
+
 .year{
 	padding: 25px 0
 }

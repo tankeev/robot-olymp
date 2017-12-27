@@ -57,7 +57,7 @@ zoom: 1;
 @media(max-width:500px)  {
 	.flex-viewport{
 		max-height: 65px;
-    	margin-top: 85%;
+    	margin-top: 35px;
 	}
 }
 @media(min-width:501px){
