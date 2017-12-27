@@ -1753,7 +1753,7 @@ i.icon-white {
 .title-text{
 	color: #ffffff;
     font-size: 49px;
-    text-transform: none;
+    text-transform: uppercase;
     font-weight: 700;
 }
 
