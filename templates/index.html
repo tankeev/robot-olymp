@@ -84,8 +84,9 @@
 			<div id="countdown" class="container countdown">
 				<div class="row_countdown">
 					<div class="countdown-item col-sm-3 col-xs-6">
-						<div id="countdown-days" class="countdown-number">&nbsp;</div>
+						<div id="countdown-days" class="countdown-number">&nbsp; </div>
 						<div class="countdown-label">days</div>
+					
 					</div>
 					<div class="countdown-item col-sm-3 col-xs-6">
 						<div id="countdown-hours" class="countdown-number">&nbsp;</div>
@@ -476,33 +477,25 @@
 	</section>
 	<!-- spacer section -->
 	<section id="facts">
-		<div class="container wow fadeIn">
+		<div class="container-wow-fadeIn">
 			<div class="section-header">
-				<h3 class="section-title">Facts</h3>
-				<p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				<h3 class="section-title">Статистика</h3>
 			</div>
-			<div class="row-counters">
-	
-				<div class="col-lg-3 col-6 text-center">
+			<div class="row-counters">	
+				<div class="col-lg-3 col-6">
 					<span data-toggle="counter-up">232</span>
-					<p class="facts">Clients</p>
+					<p class="facts">Школы</p>
 				</div>
 	
-				<div class="col-lg-3 col-6 text-center">
+				<div class="col-lg-3 col-6">
 					<span data-toggle="counter-up">521</span>
-					<p class="facts">Projects</p>
+					<p class="facts">Роботы</p>
 				</div>
 	
-				<div class="col-lg-3 col-6 text-center">
+				<div class="col-lg-3 col-6">
 					<span data-toggle="counter-up">1,463</span>
-					<p class="facts">Hours Of Support</p>
-				</div>
-	
-				<div class="col-lg-3 col-6 text-center">
-					<span data-toggle="counter-up">15</span>
-					<p class="facts">Hard Workers</p>
-				</div>
-	
+					<p class="facts">Участники</p>
+				</div>	
 			</div>
 	
 		</div>
@@ -687,11 +680,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="{% static 'js/jquery.cookie.js' %}"></script>
+	<script src="{% static 'js/jquery.cookie.js' %}"></script>	
+	<script src="{% static 'js/jquery.counterup.min' %}"></script>
 	<script src="{% static 'js/jquery.countdown.min.js' %}"></script>
-	<script src="{% static 'js/front_countdown.js' %}"></script
-	<script src="{% static 'js/facts.js' %}"></script
-
+	<script src="{% static 'js/front_countdown.js' %}"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 </body>
-
 </html>

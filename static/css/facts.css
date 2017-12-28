@@ -1,41 +1,54 @@
+
+.section-header .section-title {
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 5px;
+  padding-bottom: 70px;
+}
+
+    
 #facts {
-  background: #5a5a5a;
+  background: url(../img/bg/bg-facts.jpg) no-repeat center fixed;
   padding: 80px 0 60px 0;
 }
 
-#facts .row-counters span {
+#facts .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
-  text-align: center;
+  color: #ffffff;
+  
+}
+.container-wow-fadeIn{
+  align-content: center;
 }
 
-#facts .row-counters p {
+#facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
 }
 
-.section-header .section-title {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.section-header .section-description {
-  text-align: center;
-  padding-bottom: 40px;
-  color: #999;
-}
 .row-counters{
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-        text-align: center;
-    margin-left: -15px;
+  display: block;
+  text-align: center;
+}
+
+.col-lg-3{
+  display: inline-block;
+  padding: 40px;
+}
+
+.col-lg-3 span{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.col-lg-3 p{
+  padding-top: 20px;
+  color: rgb(206, 204, 204);
+  font-size: 24px;
 }
