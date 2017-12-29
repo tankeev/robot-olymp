@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="{% static 'css/custom_countdown.css' %}">
 	<link rel="stylesheet" href="{% static 'css/facts.css' %}">
 	<link rel="stylesheet" href="{% static 'css/slide.css' %}">
+	<link rel="stylesheet" href="{% static 'fontawesome-free-5.0.1-/css/font-awesome.css' %}">
 </head>
 
 <body>
@@ -117,7 +118,8 @@
 					</blockquote>
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<i class="icon-cogs icon-10x"></i>
+					<img src="{%static 'img/react.png' %}" style="width:40%; color:aliceblue"></img>				
+
 				</div>
 			</div>
 		</div>
@@ -690,8 +692,8 @@
 	<script src="{% static 'js/waypoints.min.js' %}"></script>
 	<script>
 		$('.counter').counterUp({
-				delay: 20,
-				time: 2000
+				delay: 30,
+				time: 3000
 			});
 	</script>
 </body>
