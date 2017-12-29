@@ -390,13 +390,12 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center;
+	background: #444 url(../img/bg/1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-
 #main-flexslider ul.slides li p {
 	font-size: 25px;
 	text-transform: none;

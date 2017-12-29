@@ -17,11 +17,14 @@
 	<!-- Custom stylesheet - for your changes-->
 	<link rel="stylesheet" href="{% static 'css/custom_countdown.css' %}">
 	<link rel="stylesheet" href="{% static 'css/facts.css' %}">
+	<link rel="stylesheet" href="{% static 'css/slide.css' %}">
 </head>
 
 <body>
 	<!-- navbar -->
 	<div class="navbar-wrapper">
+		<!--for slide show-->
+	
 		<div class="navbar navbar-top-fixed">
 			<div class="navbar-inner">
 				<div class="container cnt-nav">
@@ -49,12 +52,12 @@
 		</div>
 	</div>
 	<!-- Header area -->
-	<div id="header-wrapper" class="header-slider">
-		<header class="clearfix">
+	<div id="header-wrapper" class="header-slider cb-slideshow">
+		<header class="clearfix">			
 			<div class="logo">
 				
 			</div>
-			<div class="container">
+			<div class="container">				
 				<div class="row">
 					<div class="span12">						
 						<span class="date-text">10-Марта, лицей им. Ч.Айтматова, Бишкек, Кыргызстан </span>
@@ -483,17 +486,17 @@
 			</div>
 			<div class="row-counters">	
 				<div class="col-lg-3 col-6">
-					<span data-toggle="counter-up">232</span>
+					<span data-toggle="counter" class="counter">232</span>
 					<p class="facts">Школы</p>
 				</div>
 	
 				<div class="col-lg-3 col-6">
-					<span data-toggle="counter-up">521</span>
+					<span data-toggle="counter" class="counter"><span>546</span></span>
 					<p class="facts">Роботы</p>
 				</div>
 	
 				<div class="col-lg-3 col-6">
-					<span data-toggle="counter-up">1,463</span>
+					<span data-toggle="counter" class="counter">1,4630</span>
 					<p class="facts">Участники</p>
 				</div>	
 			</div>
@@ -681,9 +684,15 @@
 	<script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="{% static 'js/jquery.cookie.js' %}"></script>	
-	<script src="{% static 'js/jquery.counterup.min' %}"></script>
+	<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
 	<script src="{% static 'js/jquery.countdown.min.js' %}"></script>
 	<script src="{% static 'js/front_countdown.js' %}"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="{% static 'js/waypoints.min.js' %}"></script>
+	<script>
+		$('.counter').counterUp({
+				delay: 20,
+				time: 2000
+			});
+	</script>
 </body>
 </html>

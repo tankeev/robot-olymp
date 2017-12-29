@@ -132,12 +132,7 @@ jQuery(document).ready(function($) {
 		controlNav: false,
 		smootheHeight:true,						
 		useCSS: false
-	});
-
-	$('.counter-up span').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	});	
 });
 	
 	
