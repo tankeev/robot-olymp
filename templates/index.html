@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="{% static 'css/facts.css' %}">
 	<link rel="stylesheet" href="{% static 'css/slide.css' %}">
 	<link rel="stylesheet" href="{% static 'fontawesome-free-5.0.1-/css/font-awesome.css' %}">
+
 </head>
 
 <body>
@@ -599,15 +600,15 @@
 
 	<!-- end spacer section -->
 	<!-- section: contact -->
-	<section id="contact" class="section green">
-		<div class="container">
-			<h4>Обратная связь</h4>
-			<p>
-			</p>
-			<div class="blankdivider30">
+	<section id="contact" class="section green" >
+		<div class="container">			
+			<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+			Обратная связь</a>
+			
+			<div class="blankdivider30" >
 			</div>
-			<div class="row">
-				<div class="span12">
+			<div class="row collapse" id="collapseExample">
+				<div class="span12 card card-body">
 					<div class="cform" id="contact-form">
 						<div id="sendmessage">Your message has been sent. Thank you!</div>
 						<div id="errormessage"></div>
@@ -640,6 +641,7 @@
 				</div>
 				<!-- ./span12 -->
 			</div>
+			
 		</div>
 	</section>
 	<footer>
@@ -698,3 +700,4 @@
 	</script>
 </body>
 </html>
+
