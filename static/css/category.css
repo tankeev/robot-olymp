@@ -9,9 +9,13 @@ html {
   width: 100%;
   height: 100%;
 }
-
+.back{
+    margin-top: 400px;
+    width: 100%;
+    
+}
 body {
-  background: #efefef;
+  background: rgb(255, 255, 255) url(../img/categ.jpg) no-repeat center center fixed;
   color: #333;
   font-family: "Raleway";
   height: 100%;
