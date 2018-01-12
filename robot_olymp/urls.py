@@ -18,5 +18,6 @@ from django.contrib import admin
 from robot_olymp import views as index_views
 urlpatterns = [
     url(r'^$',index_views.index),
+    url(r'^category/$',index_views.category),
     url(r'^admin/', admin.site.urls),
 ]

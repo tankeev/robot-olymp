@@ -1,0 +1,117 @@
+{% load static%}
+<link rel="stylesheet" href="{% static 'css/category.css' %}">
+<title>Категории</title>
+<h1>Категории</h1>
+<div class="tabs">
+
+    <input type="radio" id="tab1" name="tab-control" checked>
+    <input type="radio" id="tab2" name="tab-control">
+    <input type="radio" id="tab3" name="tab-control">
+    <input type="radio" id="tab4" name="tab-control">
+    <input type="radio" id="tab5" name="tab-control">
+    <input type="radio" id="tab6" name="tab-control">
+    <input type="radio" id="tab7" name="tab-control">
+    <ul>
+        <li title="Lego Line follower">
+            <label for="tab1" role="button">                
+                <span>Lego Line follower</span>
+            </label>
+        </li>
+        <li title="Lego Sumo">
+            <label for="tab2" role="button">
+                <span>Lego Sumo</span>
+            </label>
+        </li>
+        <li title="Ardunio Line Follower">
+            <label for="tab3" role="button">
+                <span>Ardunio Line Follower</span>
+            </label>
+        </li>
+        <li title="Ollo Race">
+            <label for="tab4" role="button">
+                <span>Ollo Race</span>
+            </label>
+        </li>
+        <li title="Ollo Ball Collector">
+            <label for="tab5" role="button">
+                <span>Ollo Ball Collector</span>
+            </label>
+        </li>
+        <li title="Bioloid Race">
+            <label for="tab6" role="button">
+                <span>Bioloid Race</span>
+            </label>
+        </li><li title="Bioloid Sumo">
+            <label for="tab7" role="button">
+                <span>Bioloid Sumo</span>
+            </label>
+        </li>
+    </ul>
+
+    <div class="slider">
+        <div class="indicator"></div>
+    </div>
+    <div class="content">
+        <section>
+            <p> 1)Введение Следующее направление - это самые популярные роботизированные соревнования в мирах, которые проводятся на конкурсе  Sebat Robot в третий раз. Задача линейных следящих роботов - проехать по дорожке, отмеченной черной линией, как можно быстрее. Два робота конкурируют друг с другом на параллельных зеркальных дорожках.</p>
+            <p>2)Поле<br>
+             
+            1.Поле - это белые синтетические листы
+            с площадью 10 см2. 
+            <br>2. Поля стоят рядом и отражаются. <br> 3.Линия или дорожка шириной 15 мм была напечатана на поле черными чернилами
+            или отмечена черной лентой. <br>4. Минимальный радиус поворота линии равен 0. <br>5. Линия окружена 25 см свободного пространства
+            с обеих сторон.<br> 6. Стартовые и финишные линии отдельно отмечены на поле.<br>7. Могут возникать острые углы, но они не будут
+            меньше 90 °.<br> 8. Переходов нет.</p>
+        <p>
+            3) Робот <br>1. Робот должен быть автономным. <br>2. Максимальные размеры робота 23 x 23 x 23 см и его масса 1 кг. <br>3. Робот должен
+            всегда закрывать линию, как только он следует за ней, иначе гонка считается неудачной.<br> 4. Робот не должен повреждать поле
+            или угрожать зрителям каким-либо образом.<br> 5. В роботе запрещено использовать более высокое напряжение, чем 24 В. <br>6. У робота
+            должна быть кнопка запуска и остановки. <br>7. Дополнительные требования к роботу LEGO. Робот должен быть изготовлен исключительно
+            из лицензированных частей оригинала LEGO® Робот должен использовать только батареи или ячейки, рекомендованные LEGO®.<p>4) Конкурс
+            <br>1. Роботы соревнуются во время движения по трассе в одном направлении с учетом времени и на двух зеркальных дорожках.<br> 2.
+            Оптическая система измерения времени или каретка измеряет время начала и окончания на начальной и конечной линиях.<br> 3. Очередь
+            конкурса будет либо нарисована по лотам, либо определена в соответствии с порядком регистрации.<br> 4. Два робота участвуют в
+            одном раунде. Исключением является квалификация, где это не обязательно.<br> 5. В одном раунде проводится максимум два испытания.
+            <br>6. Трасса робота рисуется по жребию. <br>7. Нет необходимости заполнять оба трека в квалификации.<br> 8. Робот, который добивается
+            больших побед в испытаниях, имеет право на следующий раунд. <br>9. Робот, который добивается наилучшего времени, выигрывает испытание.
+            <br>10. Роботы должны начать судебное разбирательство, когда судья подает сигнал.<br> 11. Максимальное время круга составляет 2 минуты.
+            Если робот превысит это время, он потеряет испытание.<br> 12. Если ни один из роботов не достигнет финиша через две минуты, победителем
+            испытания станет робот, который ближе к нему. <br>13. Роботу запрещено отключать дорожку; если это произойдет, робот потеряет
+            испытание.<br> 14. Если оба робота сбивают трек во время одного испытания, то победителем испытания является робот, который дошел
+            до него. <br>15. Одна команда может зарегистрировать до 2 человек.</p>
+
+        </p>
+        
+        </section>
+        <section>
+            
+             <p>1. Матч. Как и в традиционных японских боевых искусствах,
+            роботы пытаются вытолкнуть соперника с ринга. Матч играется между двумя командами, в каждой один или два участника. Только
+            один участник команды может подходить к рингу, остальные должны наблюдать из зрительного зала. Каждая команда выставляет
+            на ринг робота, которого построила сама согласно требованиям к роботам. Матч начинается по команде судьи и продолжается,
+            пока команда не набирает два очка. Судья определяет победителя матча. </p><p>2. Роботы.<br>
+             Робот должен входить в квадратную трубу соответствующих размеров для данного класса. Масса робота в начале матча должна
+            находиться в пределах назначенного веса для данного класса. Робот может увеличиваться в размерах после начала матча, но физически
+            не должен разделяться на куски, а должен оставаться единым целым роботом.
+         <br><br>Все роботы должны быть автономными. Робот должен быть построен только из запчастей LEGO®, включая: <br>а. Запчасти, произведенные
+        и распространяемые LEGO® <br>б. Лицензированные запчасти LEGO® от сторонних производителей</p></section>
+        <section>
+            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nemo ducimus eius, magnam error quisquam sunt voluptate labore,
+            excepturi numquam! Alias libero optio sed harum debitis! Veniam, quia in eum.</section>
+        <section>
+            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit
+            aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</section>
+        
+        <section>            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit
+            aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</section>
+        <section>            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit
+            aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</section>
+        <section>
+            7777Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit
+            aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</section>
+    </div>
+</div>

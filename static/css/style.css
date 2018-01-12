@@ -855,9 +855,15 @@ section#blog {
 
 /* === section about === */
 
-section#about {
+section #about {
 	background:#f2f2f2;
+	
 }
+.span4 p{
+	font-size: 18px;
+	font-weight: 200;
+}
+
 
 .people {
 	text-align:center;
