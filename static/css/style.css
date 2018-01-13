@@ -359,6 +359,24 @@ ul#menu-main > li > a:focus {
 	text-align:center;
 }
 }
+
+@media(max-width:460px){
+	#header-wrapper {
+	width: 100%;
+	min-height: 400px;
+	margin-top: -150px;
+	padding-top: 150px;
+    padding-bottom: 51px;
+	text-align:center;
+}
+	 
+	.countdown-number{
+		font-size:16px;
+	
+}
+}
+
+
 @media(min-width: 500px) and (max-width: 770px){
 	#header-wrapper {
     padding-bottom: 71px;
@@ -1688,7 +1706,7 @@ i.icon-white {
 }
     
     /* Smartphones (portrait and landscape) ----------- */
-@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
+@media only screen  and (min-device-width : 120px)  and (max-device-width : 480px) {
 
  section.section {
  padding: 1em 0;

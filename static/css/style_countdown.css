@@ -44,3 +44,24 @@
   font-weight: bold;
 }
 
+@media(max-width:460px){	 
+	.countdown-number{
+		font-size:36px;
+	
+}
+
+.countdown-item{
+  padding:10px;
+}
+
+.row_countdown {
+    position: absolute;
+    align-content: center;
+    margin-top: 20px;
+    padding-top: 17px}
+
+    #main-flexslider ul.slides li p {
+    font-size: 20px;
+    line-height: 1.1;
+}
+}
