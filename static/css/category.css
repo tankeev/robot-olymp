@@ -10,22 +10,32 @@ html {
   height: 100%;
 }
 .back{
-    margin-top: 400px;
+    padding-bottom: 38%;
     width: 100%;
-    
+    position: static;
 }
+
+.back img{
+    width: 100%;    
+    object-fit: fill;
+    position:fixed;
+}
+
 body {
-  background: rgb(255, 255, 255) url(../img/categ.jpg) no-repeat center center fixed;
+  background: #bbbcbe;   
   color: #333;
   font-family: "Raleway";
   height: 100%;
+  margin:0px;
+
+  
 }
 body h1 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
-  color: #424242;
+  color: rgb(247, 149, 3);
   font-weight: 300;
-  padding: 40px 0 20px 0;
+  padding: 10px 0 30px 0;
   margin: 0;
 }
 
@@ -33,14 +43,14 @@ body h1 {
   left: 50%;
   transform: translateX(-50%);
   position: relative;
-  background: white;
-
+  background: white;  
   padding: 50px;
+  padding-top: 30px;
   padding-bottom: 80px;
-  width: 93%;
+  width: 92.6%;
   height: 1250px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  border-radius: 5px;
+  border-radius: 0px;
   min-width: 240px;
 }
 .tabs input[name="tab-control"] {
@@ -299,15 +309,20 @@ body h1 {
   .tabs .slider {
     display: none;
   }
+  .tabs{
+      height: 1850px;
+  }
+
 }
 @media (max-width: 600px) {
   .tabs ul li label {
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px;    
   }
-  .tabs ul li label span {
-    display: ;
+  .tabs{
+      height: 2850px;
   }
+
   .tabs .slider {
     display: none;
   }
@@ -316,5 +331,8 @@ body h1 {
   }
   .tabs .content section h2 {
     display: inline-block;
+  }
+  .tabs ul li label{
+      font-size: 18px;
   }
 }
