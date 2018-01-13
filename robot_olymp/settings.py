@@ -14,7 +14,7 @@ import os
 
 
 SECRET_KEY = '2qe7zenko_t-r=*-@7t$ig5qcolc)qp10*s4t=3k^!4j-vv08+'
-DEBUG = False
+DEBUG = True
 
 
 
