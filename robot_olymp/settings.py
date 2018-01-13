@@ -11,12 +11,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-from decouple import config
 
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
 
-from dj_database_url import parse as dburl
+SECRET_KEY = '2qe7zenko_t-r=*-@7t$ig5qcolc)qp10*s4t=3k^!4j-vv08+'
+DEBUG = False
+
+
 
 
 
@@ -77,10 +77,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'robot_olymp.wsgi.application'
 
-
-default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
-
-DATABASES = { 'default': config('DATABASE_URL', default=default_dburl, cast=dburl), }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'robot',
+        'USER': 'root',
+        'PASSWORD': 'kyrgyzstan1'
+    }
+}
 
 
 
