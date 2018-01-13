@@ -1,1 +1,1 @@
-web: gunicorn robot_olymp.wsgi
+web: gunicorn robot-olymp.wsgi
