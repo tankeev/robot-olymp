@@ -18,7 +18,14 @@
 	<link rel="stylesheet" href="{% static 'css/custom_countdown.css' %}">
 	<link rel="stylesheet" href="{% static 'css/facts.css' %}">
 	<link rel="stylesheet" href="{% static 'css/slide.css' %}">
+	<link rel="stylesheet" href="{% static 'css/timeline_dates.css' %}">
 	<link rel="stylesheet" href="{% static 'fontawesome-free-5.0.1-/css/font-awesome.css' %}">
+	<title>Responsive Vertical Timeline</title>
+	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- // Fonts -->
 
 </head>
 
@@ -464,94 +471,70 @@
 	<!-- #facts -->
 	<!-- end spacer section -->
 	<!-- section: blog -->
-	<section id="blog" class="section">
-		<div class="container">
-			<h4>Новости</h4>
-			<!-- Three columns -->
-			<div class="row">
-				<div class="span3">
-					<div class="home-post">
-						<div class="post-image">
-							<img class="max-img" src="{% static 'img/blog/img1.jpg' %}" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 19, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
-						</div>
-						<div class="entry-content">
-							<h5><strong><a href="#">New design trends</a></strong></h5>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-							</p>
-							<a href="#" class="more">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="span3">
-					<div class="home-post">
-						<div class="post-image">
-							<img class="max-img" src="{% static 'img/blog/img2.jpg' %}" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 19, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
-						</div>
-						<div class="entry-content">
-							<h5><strong><a href="#">Retro is great</a></strong></h5>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-							</p>
-							<a href="#" class="more">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="span3">
-					<div class="home-post">
-						<div class="post-image">
-							<img class="max-img" src="{% static 'img/blog/img3.jpg' %}" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 22, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
-						</div>
-						<div class="entry-content">
-							<h5><strong><a href="#">Isometric mockup</a></strong></h5>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-							</p>
-							<a href="#" class="more">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="span3">
-					<div class="home-post">
-						<div class="post-image">
-							<img class="max-img" src="{% static 'img/blog/img4.jpg' %}" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 27, 2013</span>
-							<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
-						</div>
-						<div class="entry-content">
-							<h5><strong><a href="#">Free icon set</a></strong></h5>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-							</p>
-							<a href="#" class="more">Read more</a>
-						</div>
-					</div>
-				</div>
+	<section id="conference-timeline">
+    <div class="timeline-start">ВАЖНЫЕ ДАТЫ</div>
+    <div class="conference-center-line"></div>
+    <div class="conference-timeline-content">
+      <!-- Article -->
+      <div class="timeline-article">
+        <div class="content-left-container">
+          <div class="content-left">
+            <p>Начало регистрации <span class="article-number">01</span></p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">01</span>
+          <span class="month">Фев</span>
+        </div>
+      </div>
+      <!-- // Article -->
+      
+      <!-- Article -->
+      <div class="timeline-article">
+        <div class="content-right-container">
+          <div class="content-right">
+            <p>Завершение регистрации<span class="article-number">02</span></p>
+          </div>
+          
+        </div>
+        <div class="meta-date">
+          <span class="date">01</span>
+          <span class="month">Март</span>
+        </div>
+      </div>
+      <!-- // Article -->
+      
+      <!-- Article -->
+      <div class="timeline-article">
+        <div class="content-left-container">
+          <div class="content-left">
+            <p>Дата оплаты участие<span class="article-number">03</span></p>
+          </div>
+          
+        </div>
+        <div class="meta-date">
+          <span class="date">09</span>
+          <span class="month">Март</span>
+        </div>
+      </div>
+	  <!-- // Article -->
+	<div class="timeline-article">
+		<div class="content-right-container">
+			<div class="content-right">
+				<p>Начало Олимпиады
+					<span class="article-number">04</span>
+				</p>
 			</div>
-			<div class="blankdivider30"></div>
-			<div class="aligncenter">
-				<a href="#" class="btn btn-large btn-theme">Читать дальше</a>
-			</div>
+	
 		</div>
-	</section>
+		<div class="meta-date">
+			<span class="date">10</span>
+			<span class="month">Март</span>
+		</div>
+	</div>
+    </div>
+    <div class="timeline-end">2018</div>
+  </section>
 
 	<!-- end spacer section -->
 	<!-- section: contact -->
