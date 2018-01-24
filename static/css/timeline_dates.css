@@ -28,8 +28,9 @@ body {
 }
 #conference-timeline .conference-center-line {
   position: absolute;
+  padding-top: 190px;
   width: 3px;
-  height: 100%;
+  height: 120%;
   top: 0;
   left: 50%;
   margin-left: -2px;
