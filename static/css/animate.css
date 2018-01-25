@@ -3219,7 +3219,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 @-moz-keyframes wiggle {
     0% { -moz-transform: skewX(9deg); }
-    10% { -moz-transform: skewX(-8deg); }
+    10% { -moz-transform: skewX(-8deg);;;; }
     20% { -moz-transform: skewX(7deg); }
     30% { -moz-transform: skewX(-6deg); }
     40% { -moz-transform: skewX(5deg); }
