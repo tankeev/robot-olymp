@@ -627,14 +627,14 @@ section.spacer blockquote cite {
 }
 #portfolio-wrap .grid {
 	margin: 0;
-	overflow: hidden;
+	overflow: show;
 	line-height: 0;
 	width: 20%;
 	border:0;
 	padding: 0;
 }
 .portfolio-item.current {
-	z-index: 101;
+	z-index: 1;
 }
 .portfolio-item {
 	padding: 0;
