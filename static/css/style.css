@@ -509,6 +509,7 @@ section.inner {
 
 .section.orange h4 ,.section.green h4{
 	color: #4e4e4e;
+	padding-top: 5%;
 }
 .section.orange p,.section.green p {
 	color: #414141;
