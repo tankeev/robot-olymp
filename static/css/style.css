@@ -158,7 +158,7 @@ blockquote {
 
 blockquote.large {
 	font-size:36px;
-	font-weight:700;
+	font-weight:100;
 	line-height:1.1em;
 }
 blockquote.large:before {
@@ -498,7 +498,7 @@ section.section h4 {
 	text-align: center;
 	margin-bottom: 40px;
 	font-size: 46px;
-	font-weight: 700;
+	font-weight: 200;
 	letter-spacing: -1px;
 }
 section.inner {
@@ -508,10 +508,10 @@ section.inner {
 
 
 .section.orange h4 ,.section.green h4{
-	color: #fcfcfc;
+	color: #4e4e4e;
 }
 .section.orange p,.section.green p {
-	color: #f7f7f7;
+	color: #414141;
 }
 
 
@@ -523,7 +523,9 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
+	padding-top:160px;
+	padding-bottom: 160px;
 }
 
 .spacer.green,.section.green h4 {
@@ -534,7 +536,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#fdfdfd;
 }
 
 section.spacer.bg2 {
@@ -797,12 +799,12 @@ section#services .span3:hover {
 }
 
 section#services .service-box h2 {
-	color: #f7f7f7;
-	font-weight: 700;
+	color: #ff8b06;
+	font-weight: 400;
 }
 
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:#ececec;
 }
 
 
