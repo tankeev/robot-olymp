@@ -619,7 +619,12 @@ section.spacer blockquote cite {
 
 /* === portfolio wrap - grid === */
 #portfolio-wrap {
-	position: relative;
+	overflow: visible;
+    position: absolute;
+    height: 218px;
+}
+#portfolio-wrap {
+	position: static;
 	padding: 0;
 	width: 100.1%;
 	margin: 0 auto;
