@@ -88,7 +88,7 @@ DATABASES = {
 
 ACCOUNT_ACTIVATION_DAYS = 7
 AUTH_PROFILE_MODULE = 'user_profile.UserProfile'
-
+LOGIN_URL = 'accounts/login/'
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
