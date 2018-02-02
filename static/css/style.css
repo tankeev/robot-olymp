@@ -1927,3 +1927,8 @@ i.icon-white {
 	text-align: center;
 	padding-top: 60px;
 }
+
+
+.register_page{
+	background: #444 url(../img/bg/1.jpg) no-repeat center center fixed;
+}
