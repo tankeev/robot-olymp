@@ -1866,22 +1866,16 @@ i.icon-white {
 	
 .btn-reg {
 	background: transparent;
-    border: 2px solid rgb(51, 51, 51);
-    color: rgb(26, 26, 26);
+    border: 2px solid #1bac91;
+    color: #1bac91;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 13px 38px 9px;
+    padding: 23px 38px 19px;
     border-radius: 5px;
     display: inline-block;
     border-radius: 85px;
 	margin-right: 45px;
 	margin-top: 5px;
-}
-.btn-reg a:hover{
-	background: #ffbb00;
-    color: #FFFFFF;
-	border-color: #ffbb00;
-	text-decoration-style: none;
 }
 
 .btn-reg {
@@ -1890,9 +1884,9 @@ i.icon-white {
 }
 
 .btn-reg:hover {
-   background: #ffbb00;
+   background: #1bac91;
     color: #FFFFFF;
-	border-color: #ffbb00;
+	border-color: #1bac91;
 	text-decoration: none;
 }
 
