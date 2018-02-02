@@ -17,7 +17,7 @@
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
 
 /* FlexSlider Necessary Styles
 *********************************/ 
@@ -73,25 +73,7 @@ zoom: 1;
 .carousel li {margin-right: 5px}
 
 
-/* Direction Nav */
-/*.flex-direction-nav { margin: 70px 0 0; }
-.flex-direction-nav a {
-	display: block; 
-	z-index: 10; cursor: pointer; 
-	opacity: 1;
-	-webkit-transition: all .3s ease;
-}
-.flex-direction-nav a i {
 
-}
-.flex-direction-nav li a {
-	color:#fff;
-}
-
-.flex-direction-nav li a:hover {
-	color:#fff;
-	text-decoration:none;
-}*/
 .flexslider .flex-next {
 
 }
@@ -105,7 +87,7 @@ zoom: 1;
 
 }
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
-.flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+
 
 /* Control Nav */
 .flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
