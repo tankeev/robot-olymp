@@ -1,21 +1,25 @@
 {% load staticfiles%}
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="en">
-        <link href="{% static 'css/login.css' %}" rel="stylesheet">
+<html lang="en">       
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link href="{% static 'form/css/reset.css' %}" rel="stylesheet">
+    <link href="{% static 'form/css/style.css' %}" rel="stylesheet">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Contact Form | CodyHouse</title>
+</head>
 <body>
-<div class="svg-container">
-    <!-- I crated SVG with: https://codepen.io/anthonydugois/pen/mewdyZ -->
-    <svg viewbox="0 0 800 400" class="svg">
-        <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
-        </path>
-    </svg>
-    </div>
 
 <head>
        
-    <h1>This is a header title</h1>
-    <h3>Here you are, scroll down.</h3>          
+             
     
     <title>{% block title %}User test{% endblock %}</title>
 </head>
@@ -48,17 +52,10 @@
                          
                                 {% endblock %}
                             </div>
-                        </div>
-                                
-                </div>
+                        </div>                                
+                </div>           
                 
-            
-
-    
-
-
-
-      <link href="{% static 'js/login.js' %}" rel="stylesheet">
-
+                    <script src="{% static 'form/js/jquery-2.1.1.js' %}"></script>
+                    <script src="{% static 'form/js/main.js'%}"></script> <!-- Resource jQuery -->
 </body>
 </html>
