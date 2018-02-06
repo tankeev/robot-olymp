@@ -187,7 +187,7 @@ a {
 }
 
 a:hover, a:active {
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
@@ -1899,6 +1899,7 @@ i.icon-white {
 	margin-right: 47px;
 }
 
+
 @media(max-width:800px){
 	.btn-reg{
 		width: 18%;
@@ -1915,7 +1916,8 @@ i.icon-white {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-*/ safasfsa*
+
+
 .btn-reg:hover {
    background: #1bac91;
     color: #ffffff;
@@ -1929,6 +1931,3 @@ i.icon-white {
 }
 
 
-.register_page{
-	background-color:#1bac91;
-}

@@ -420,3 +420,20 @@ FLoating labels
   padding-right:40px; 
   padding-top:20px;
 }
+.success-message{
+    text-align: center;
+    font-size: 28px;
+    margin: 16%;
+    padding: 50px;
+    background-color: #42a2e1;
+    color: #fff;
+}
+
+.sorry-message{
+    text-align: center;
+    font-size: 28px;
+    margin: 16%;
+    padding: 50px;
+    background-color: #fa3d03;
+    color: #fff;
+}
