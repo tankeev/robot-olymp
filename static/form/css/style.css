@@ -31,7 +31,8 @@ Form
 
 -------------------------------- */
 .cd-form {
-  width: 90%;
+  text-align: left;
+  width: 80%;
   max-width: 600px;
   margin: 4em auto;
 }
@@ -69,9 +70,11 @@ Form
 }
 .cd-form input[type="text"],
 .cd-form input[type="email"],
+.cd-form input[type="password"],
 .cd-form textarea,
 .cd-form select,
-.cd-form legend {
+.cd-form legend,
+.input {
   display: block;
   width: 100%;
   -webkit-appearance: none;
@@ -82,6 +85,7 @@ Form
 }
 .cd-form input[type="text"],
 .cd-form input[type="email"],
+.cd-form input[type="password"],
 .cd-form textarea,
 .cd-form select {
   /* general style for input elements */
@@ -93,6 +97,7 @@ Form
 }
 .cd-form input[type="text"]:focus,
 .cd-form input[type="email"]:focus,
+.cd-form input[type="password"]:focus,
 .cd-form textarea:focus,
 .cd-form select:focus {
   outline: none;
@@ -232,8 +237,10 @@ Form
 .cd-form input[type="submit"] {
   /* button style */
   border: none;
+  width: 30%;
   background: #2c97de;
   border-radius: .25em;
+  margin-top: 10px;
   padding: 16px 20px;
   color: #ffffff;
   font-weight: bold;
@@ -294,7 +301,7 @@ Form
   .cd-form input[type="email"],
   .cd-form textarea,
   .cd-form select {
-    padding: 16px;
+    padding: 12px;
   }
 }
 
@@ -336,7 +343,8 @@ Custom icons
 
 -------------------------------- */
 .cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
-  padding-left: 54px !important;
+  padding-left: 14px !important;
+  zmargin-top: 10px;
 }
 .cd-form .user {
   background: url("../img/cd-icon-user.svg") no-repeat 16px center;
@@ -401,4 +409,14 @@ FLoating labels
   .js .floating-labels .cd-label {
     top: 20px;
   }
+}
+
+
+.register_page{
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+}
+#header{
+  padding-right:40px; 
+  padding-top:20px;
 }

@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 {% load staticfiles%}
 {% load i18n %}
-<!DOCTYPE html>
+
 <html lang="en">       
 
 <head>
@@ -13,7 +14,7 @@
     <link href="{% static 'form/css/style.css' %}" rel="stylesheet">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Contact Form | CodyHouse</title>
+	<title>Профиль</title>
 </head>
 <body>
 
@@ -28,16 +29,17 @@
         
                 <div class="container">
                     <div class="row register_page">
+                    
                             <div id="header">
                                 {% block header %}
                                 
                             
                                 {% if user.is_authenticated %}
                                     {% trans "Logged in" %}: {{ user.username }} 
-                                    (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> | 
-                                    <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>)
+                                    (<a href="{% url 'auth_logout' %}">{% trans "Выйти" %}</a> | 
+                                    <a href="{% url 'auth_password_change' %}">{% trans "Изменить пароль" %}</a>)
                                 {% else %}
-                                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+                                <a href="{% url 'auth_login' %}">{% trans "Войти" %}</a>
                                 {% endif %}
                       
                                 {% endblock %}
