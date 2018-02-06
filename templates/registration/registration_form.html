@@ -2,10 +2,15 @@
 {% load i18n %}
 
 {% block content %}
-<form method="post" action=".">
-  {% csrf_token %}
-  {{ form.as_p }}
+<form class="cd-form floating-labels" method="post" action=".">
+  <fieldset>
+    <div class="icon">
+      {% csrf_token %}
+      {{ form.as_p }}
 
-  <input type="submit" value="{% trans 'Submit' %}" />
+      <input type="submit" value="{% trans 'Submit' %}" />
+    </div>
+  </fieldset>
 </form>
 {% endblock %}
+

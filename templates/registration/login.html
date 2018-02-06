@@ -2,30 +2,21 @@
 {% load i18n %}
 
 {% block content %}
-<form class="cd-form floating-labels"  method="post" action=".">
+
+    <form class="cd-form floating-labels"  method="post" action=".">
     <div class="error-message">
         <p>Введите имя пользователя и пароль</p>
     </div>
     
    
     <fieldset>
-       
-        {% csrf_token %} 
-        {{ form.as_p }}
-        
-
         <div class="icon">
-            <label class="cd-label" for="cd-name">Name</label>
-            <input class="user" type="submit" name="cd-name" id="cd-name" required value="{% trans 'Log in' %}">
+             {% csrf_token %} {{ form.as_p }}            
+            <input  type="submit"  required value="{% trans 'Войти' %}">
+            <input class="input" required type="hidden" name="next" value="{{ next }}">
         </div> 
-
-        <div class="icon">
-            <label class="cd-label" for="cd-email">Email</label>
-            <input class="email error" type="email" name="cd-email" id="cd-email" required type="hidden" name="next" value="{{ next }}">
-        </div>
-
-        <p>{% trans "Forgot password" %}? <a href="{% url 'auth_password_reset' %}">{% trans "Reset it" %}</a>!</p>
-      <p>{% trans "Not member" %}? <a href="{% url 'registration_register' %}">{% trans "Register" %}</a>!</p>
+        <p>{% trans "Забыли пароль" %}? <a href="{% url 'auth_password_reset' %}">{% trans "Получить пароль" %}</a>!</p>
+      <p>{% trans "Зарегистрироватся" %}? <a href="{% url 'registration_register' %}">{% trans "Новый пользователь" %}</a>!</p>
     </fieldset>
 </form>
 

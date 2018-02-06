@@ -3,8 +3,8 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'home.html')
 
-def main(request):
-    return render(request, 'main.html')
+def profile(request):
+    return render(request, 'registration/profile.html')
 
 def category(request):
     return render(request, 'category.html')
@@ -12,3 +12,4 @@ def category(request):
 
 def index(request):
     return render(request, 'index.html')
+

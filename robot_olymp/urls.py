@@ -19,7 +19,7 @@ from robot_olymp import views as home_views
 urlpatterns = [
     url(r'^$',home_views.home),
     url(r'^$',home_views.index),
-    url(r'^main/$',home_views.main),
+    url(r'^accounts/profile/$',home_views.profile),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.hmac.urls')),
 ]
