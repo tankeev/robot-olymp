@@ -470,6 +470,10 @@ FLoating labels
     margin-left: 10%;
   }
 
+  @media(max-width:600px){ .well{
+    margin-left: 3%;
+  }}
+
 .navig {
     background-color: #f99418 !important;
     border-color: #e7e7e7;
