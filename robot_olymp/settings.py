@@ -140,6 +140,6 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'tankeev@gmail.com'
-EMAIL_HOST_PASSWORD = 'risalekyrgyzstan'
+EMAIL_HOST_PASSWORD = 'risalekyrgyzstan123'
 SERVER_EMAIL = 'tankeev@gmail.com'
 DEFAULT_FROM_EMAIL = 'ROBOTolymp'
