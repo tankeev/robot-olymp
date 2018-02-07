@@ -478,3 +478,11 @@ FLoating labels
     background-color: #f99418 !important;
     border-color: #e7e7e7;
 }
+
+.success{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  color: #337ab7;;
+  font-family: 'Roboto', sans-serif;
+}

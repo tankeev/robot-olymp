@@ -12,4 +12,15 @@ def category(request):
 
 def index(request):
     return render(request, 'index.html')
+    
+def auth_password_reset_done(request):
+    return render(request, 'registration/password_reset_done.html')
+
+
+def auth_password_change_done(request):
+    return render(request, 'registration/password_change_done.html')
+
+
+def password_reset_complete(request):
+    return render(request, 'registration/password_reset_complete.html')
 

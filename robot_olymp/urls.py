@@ -12,6 +12,8 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+    accounts/password/change/auth_password_change_done
+    accounts/password/reset/confirm/OQ/set-password/auth_password_reset_complete
 """
 from django.conf.urls import url, include
 from django.contrib import admin
@@ -22,4 +24,7 @@ urlpatterns = [
     url(r'^accounts/profile/$',home_views.profile),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.hmac.urls')),
+    url(r'^accounts/password/reset/auth_password_reset_done', home_views.auth_password_reset_done),
+    url(r'^accounts/password/change/auth_password_change_done', home_views.auth_password_change_done),
+    url(r'^accounts/password/reset/confirm/OQ/set-password/auth_password_reset_complete', home_views.password_reset_complete),
 ]
