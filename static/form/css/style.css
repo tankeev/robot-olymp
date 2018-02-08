@@ -476,8 +476,8 @@ FLoating labels
   }}
 
 .navig {
-    background-color: #f99418 !important;
-    border-color: #e7e7e7;
+    background-color: rgb(255, 152, 0) !important;
+    border-color: rgb(255, 152, 0) !important;;
 }
 
 .success{
