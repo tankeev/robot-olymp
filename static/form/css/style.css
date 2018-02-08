@@ -413,7 +413,7 @@ FLoating labels
 
 
 .register_page{
-  text-align: right;
+  text-align: center;
   padding: 10px 10px 10px 10px;
 }
 #header{
@@ -486,4 +486,9 @@ FLoating labels
   font-weight: 100;
   color: #337ab7;;
   font-family: 'Roboto', sans-serif;
+}
+
+.left-nav {
+padding: 10px;
+align-items: left;
 }

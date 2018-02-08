@@ -1,5 +1,5 @@
 {% load i18n %}
-{% trans "Activate account at" %} {{ site.name }}:
+{% trans "Добро пожаловать на олимпиаду по робототехнике! Для активации нажмите на ссылку ниже" %} {{ site.name }}:
 
 http://{{ site.domain }}{% url 'registration_activate' activation_key %}
 

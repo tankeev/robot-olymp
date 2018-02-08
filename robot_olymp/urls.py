@@ -19,9 +19,9 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from robot_olymp import views as home_views
 urlpatterns = [
-    url(r'^$',home_views.home),
+    url(r'^$',home_views.home,name='home'),
     url(r'^$',home_views.index),
-    url(r'^accounts/profile/$',home_views.profile),
+    url(r'^accounts/profile/$',home_views.profile, name='profile'),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.hmac.urls')),
     url(r'^accounts/password/reset/auth_password_reset_done', home_views.auth_password_reset_done),
