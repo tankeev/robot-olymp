@@ -40,16 +40,18 @@
                                 <span class="left-nav">
                                     <a href="{% url 'home' %}">ГЛАВНАЯ</a>
                                 </span>
-                                <span class="left-nav">
-                                        <a href="{% url 'profile' %}">ПРОФИЛЬ</a>
-                                    </span>
+                                
                                 {% block header %}
                                 
                             
                                 {% if user.is_authenticated %}
+                                    <span class="left-nav">
+                                            <a href="{% url 'profile' %}">ПРОФИЛЬ</a>
+                                    </span>
                                     {% trans "Logged in" %}: {{ user.username }} 
                                     (<a href="{% url 'auth_logout' %}">{% trans "ВЫХОД" %}</a> | 
                                     <a href="{% url 'auth_password_change' %}">{% trans "Изменить пароль" %}</a>)
+                                    
                                 {% else %}
                                 <a href="{% url 'auth_login' %}">{% trans "ВОЙТИ" %}</a>
                                 {% endif %}
