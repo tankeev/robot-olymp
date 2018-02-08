@@ -415,6 +415,7 @@ FLoating labels
 .register_page{
   text-align: center;
   padding: 10px 10px 10px 10px;
+      margin-top: 80px !important;
 }
 #header{
       padding-right: 0px;
