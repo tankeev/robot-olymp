@@ -279,7 +279,7 @@ h2.pagetitle {
 }
 
 .navbar .navbar-brand img {
-	width: 20%;	
+	width: 30%;	
     position: static;
     padding: 30px 50px;
     z-index: -1;
@@ -1848,17 +1848,17 @@ i.icon-white {
 }
 .title-text{
 	color: #ffffff;
-    font-size: 49px;
+    font-size: 39px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .title-year{
 	color: #ffbb00;
 	margin-left: 15px;
-    font-size: 49px;
+    font-size: 39px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 @media(max-width:500px){
