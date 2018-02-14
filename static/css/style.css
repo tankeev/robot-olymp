@@ -985,11 +985,15 @@ height: 100%;
 	padding-top: 100px;
 }
 #payment .flyLeft{
-	text-align: left;
+	text-align: center;
 }
 .flyRight img{
-	width:60%;
+	max-width:50% !important;
 	
+}
+
+.span3{
+	text-align: right;
 }
 
 .txt{
@@ -1915,13 +1919,13 @@ i.icon-white {
     font-size: 39px;
     text-transform: uppercase;
 	font-weight: 550;
-	font-stretch: extra-condensed;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .title-year{
 	color: #ffbb00;
 	margin-left: 15px;
-	
+	font-family: 'Roboto Condensed', sans-serif;
     font-size: 39px;
     text-transform: uppercase;
     font-weight: 550;
