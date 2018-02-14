@@ -2003,3 +2003,24 @@ i.icon-white {
 }
 
 
+.contacts{
+	list-style: none;
+	vertical-align: 50%
+}
+
+.contacts p, .sponsor p{
+	color:#ff8b06;
+}
+.logo img{
+	max-width: 20% !important;
+}
+.last{
+	text-align: center;
+	padding-top: 140px;
+}
+
+@media(max-width: 770px){
+	.last{
+		padding-top: 0%;
+	}
+}
