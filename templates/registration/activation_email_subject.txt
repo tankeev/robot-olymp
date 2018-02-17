@@ -1,1 +1,1 @@
-{% load i18n %}{% trans "Активация вашего аккаунта в" %} {{ site.name }}
+{% load i18n %}{% trans "Добро пожаловать на RobotoFest" %} {{ site.name }}
