@@ -170,7 +170,8 @@
 	<!-- section: team -->
 	
 	<!-- end section: team -->
-	<!-- section: services -->
+	<!-- section: services
+	 lego_line_follower  ollo_race ollo_ball -->
 	<section id="services" class="section orange">
 		<div class="container">
 			<h4>Категории</h4>
@@ -178,7 +179,7 @@
 			<div class="row">
 				<div class="span4 animated-fast flyIn">					
 					<div class="service-box">
-						<a href="https://drive.google.com/open?id=1w8SpQ7cjOSkYZBZH3Pq0zN9lyYQYyPpM" target="_blank" class="categ" style="text-decoration:none;">
+						<a href="{% url 'lego_line_follower' %}" target="_blank" class="categ" style="text-decoration:none;">
 						<img src="{% static 'img/icons/line_follower.svg' %}" alt="" />
 						<h2>Lego Line follower</h2>
 						<p>
@@ -189,7 +190,7 @@
 				</div>
 				<div class="span4 animated flyIn">
 					<div class="service-box">
-						<a href="https://drive.google.com/open?id=1ZhCd9-2zTPdeeYHJDu60_jU1rw4gsbSF" target="_blank" class="categ" style="text-decoration:none;">
+						<a href="{% url 'sumo' %}" target="_blank" class="categ" style="text-decoration:none;">
 						<img src="{% static 'img/icons/sumo.svg' %}" alt="" />
 						<h2>Lego Sumo</h2>
 						<p>
@@ -200,7 +201,7 @@
 				</div>
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<a href="https://drive.google.com/open?id=1DI2FA4unxC6L1YA_yU5X4PMzTL1Meikx" target="_blank" class="categ" style="text-decoration:none;">
+						<a href="{% url 'arduino_line_follower'%}" target="_blank" class="categ" style="text-decoration:none;">
 						<img src="{% static 'img/icons/arduino.svg' %}" alt="" />
 						<h2>Ardunio Line Follower</h2>
 						<p>
@@ -214,7 +215,7 @@
 			<div class="row" style="margin-bottom:0px;">
 				<div class="span4 animated-fast flyIn">
 					<div class="service-box">
-						<a href="https://drive.google.com/open?id=1fmcqZrnMLruEzXFLjYu1PAxBaQRZUuBT" target="_blank" class="categ" style="text-decoration:none;">
+						<a href="{% url 'ollo_ball' %}" target="_blank" class="categ" style="text-decoration:none;">
 							<img src="{% static 'img/icons/ollo_ball.svg' %}" alt="" />
 							<h2>Ollo Ball Collector</h2>
 							<p>								
@@ -225,7 +226,7 @@
 				</div>
 				<div class="span4 animated-slow flyIn">
 					<div class="service-box">
-						<a href="https://drive.google.com/open?id=1h_XJrP7U49Yavr-cpjSpuiyC62NCSL8s" target="_blank" class="categ" style="text-decoration:none;">
+						<a href="{% url 'ollo_race' %}" target="_blank" class="categ" style="text-decoration:none;">
 							<img src="{% static 'img/icons/ollo_race.svg' %}" alt="" />
 							<h2>Ollo Race</h2>
 							<p>
