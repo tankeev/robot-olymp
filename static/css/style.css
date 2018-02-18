@@ -989,6 +989,17 @@ height: 100%;
 #payment .flyLeft{
 	text-align: center;
 }
+
+#map{
+	background-color: #efeeec;
+	padding: 10px 0 0px;
+}
+
+.map{
+	text-align: center;
+}
+
+
 .flyRight img{
 	max-width:50% !important;
 	
