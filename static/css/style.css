@@ -404,7 +404,7 @@ ul#menu-main > li > a:focus {
 	padding-top: 150px;
     padding-bottom: 51px;
 	text-align:center;
-}
+}}
 
 @media(min-width: 500px) and (max-width: 770px){
 	#header-wrapper {
@@ -2047,4 +2047,4 @@ i.icon-white {
 	.last{
 		padding-top: 0%;
 	}
-}}
+}
