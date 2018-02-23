@@ -443,6 +443,10 @@ header .logo {
 	-o-background-size: cover;
 	background-size: cover;
 }
+.flex-direction-nav{
+	list-style: none;
+}
+
 #main-flexslider ul.slides li p {
 	font-size: 25px;
 	text-transform: none;
