@@ -31,3 +31,17 @@ sudo apt-get autoremove #After using any of the above commands, use this in orde
 
 -------create logs------
  sudo mkdir /etc/apache2/logs
+
+ --------give full path to d.sqlite3-------
+ /var/www/robot_olymp/db.sqlite3le
+
+ --------unable to recognize database--------
+ Your Apache user does not have the rights needed to write to your database.
+
+Modify your settings.py so that it shows an absolute path for your database, for example:
+
+DATABASE_NAME = '/var/www/dashboardapp/whatever/path/db.sqlite3'
+Then type the following commands at the Linux prompt to set the correct privileges:
+
+chown www-data /var/www/dashboardapp/whatever/path/
+chown www-data /var/www/dashboardapp/whatever/path/db.sqlite3
