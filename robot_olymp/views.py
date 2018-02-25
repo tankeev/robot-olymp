@@ -26,23 +26,23 @@ def password_reset_complete(request):
     return render(request, 'registration/password_reset_complete.html')
 
 def sumo(request):
-    image_data = open("static/pdf/1-LEGO_SUMO.pdf", "rb").read()
+    image_data = open("staticfiles/pdf/1-LEGO_SUMO.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
 
 def lego_line_follower(request):
-    image_data = open("static/pdf/2-LEGO_LINEFOLLOWER.pdf", "rb").read()
+    image_data = open("staticfiles/pdf/2-LEGO_LINEFOLLOWER.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
 
 
 def arduino_line_follower(request):
-    image_data = open("static/pdf/3-ARDUINO_LINEFOLLOWER.pdf", "rb").read()
+    image_data = open("staticfiles/pdf/3-ARDUINO_LINEFOLLOWER.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
 
 
 def ollo_race(request):
-    image_data = open("static/pdf/4-OLLO_RACE.pdf", "rb").read()
+    image_data = open("staticfiles/pdf/4-OLLO_RACE.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
 
 def ollo_ball(request):
-    image_data = open("static/pdf/5-OLLO_BALL.pdf", "rb").read()
+    image_data = open("staticfiles/pdf/5-OLLO_BALL.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
