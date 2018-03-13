@@ -983,6 +983,32 @@ height: 100%;
 }
 
 
+
+/* resluts */
+#result {
+	background:#d89a15;	
+}
+#result  h4{
+	font-weight: 250;
+	color:#ffffff;
+}
+.spacer.result,.section.result {
+	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
+	padding-top:160px;
+	padding-bottom: 160px;
+}
+.span11 p{
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 1.9em;
+}
+#result {
+	padding-bottom: 90px;
+	padding-top: 100px;
+}
+
+
+
 #payment {
 	background:#d89a15;	
 	text-align: center;

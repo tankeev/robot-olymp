@@ -1,0 +1,54 @@
+
+.section-header .section-title {
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 5px;
+  padding-bottom: 70px;
+}
+
+    
+#facts {
+  background: url(../img/bg/bg-facts.jpg) no-repeat center fixed;
+  padding: 80px 0 60px 0;
+}
+
+#facts .counters span {
+  font-size: 48px;
+  display: block;
+  color: #ffffff;
+  
+}
+.container-wow-fadeIn{
+  align-content: center;
+}
+
+#facts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.row-counters{
+  display: block;
+  text-align: center;
+}
+
+.col-lg-3{
+  display: inline-block;
+  padding: 40px;
+}
+
+.col-lg-3 span{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 200;
+}
+.col-lg-3 p{
+  padding-top: 20px;
+  color: rgb(206, 204, 204);
+  font-size: 24px;
+}
