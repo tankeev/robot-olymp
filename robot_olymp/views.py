@@ -50,3 +50,4 @@ def ollo_ball(request):
 def result(request):
     image_data = open("staticfiles/pdf/result.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
+
