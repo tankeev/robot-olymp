@@ -15,7 +15,7 @@ import os
 
 
 SECRET_KEY = '2qe7zenko_t-r=*-@7t$ig5qcolc)qp10*s4t=3k^!4j-vv08+'
-DEBUG = False
+DEBUG = True
 
 
 
@@ -136,6 +136,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+ 
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST = 'smtp.gmail.com'
