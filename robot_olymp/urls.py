@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^category/arduino-line-follower/$',home_views.arduino_line_follower, name='arduino_line_follower'),
     url(r'^category/ollo-race/$',home_views.ollo_race, name='ollo_race'),
     url(r'^category/ollo-ball/$',home_views.ollo_ball, name='ollo_ball'),
+    url(r'^result/$',home_views.result, name='result'),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.hmac.urls')),
     url(r'^accounts/password/reset/auth_password_reset_done', home_views.auth_password_reset_done),

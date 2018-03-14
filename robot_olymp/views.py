@@ -46,3 +46,7 @@ def ollo_race(request):
 def ollo_ball(request):
     image_data = open("staticfiles/pdf/5-OLLO_BALL.pdf", "rb").read()
     return HttpResponse(image_data, content_type="application/pdf")
+
+def result(request):
+    image_data = open("staticfiles/pdf/result.pdf", "rb").read()
+    return HttpResponse(image_data, content_type="application/pdf")

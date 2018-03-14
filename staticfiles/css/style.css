@@ -983,6 +983,26 @@ height: 100%;
 }
 
 
+
+/* resluts */
+.spacer.result, .section.result{
+	background-color: #1bac91;
+	background:url(../img/res.jpg) 50% 0 no-repeat fixed;
+	padding-top:160px;
+	padding-bottom: 160px;
+}
+
+.spacer.result,.section.result h4 {
+	color:#fff;
+	box-shadow: #2b2a2a;
+}
+.asd{
+	align-content: center;
+	padding-left: 5%;
+}
+
+
+
 #payment {
 	background:#d89a15;	
 	text-align: center;
@@ -1983,7 +2003,7 @@ i.icon-white {
 }
 	
 .btn-reg {
-	background: transparent;
+	background: #d89a15;;
     border: 2px solid #ffffff;
     color: #ffffff;
     text-transform: uppercase;

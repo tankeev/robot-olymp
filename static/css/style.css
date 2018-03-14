@@ -985,26 +985,20 @@ height: 100%;
 
 
 /* resluts */
-#result {
-	background:#d89a15;	
-}
-#result  h4{
-	font-weight: 250;
-	color:#ffffff;
-}
-.spacer.result,.section.result {
-	background:url(../img/1.jpg) 50% 0 no-repeat fixed;
+.spacer.result, .section.result{
+	background-color: #1bac91;
+	background:url(../img/res.jpg) 50% 0 no-repeat fixed;
 	padding-top:160px;
 	padding-bottom: 160px;
 }
-.span11 p{
-	font-size: 20px;
-	font-weight: 100;
-	line-height: 1.9em;
+
+.spacer.result,.section.result h4 {
+	color:#fff;
+	box-shadow: #2b2a2a;
 }
-#result {
-	padding-bottom: 90px;
-	padding-top: 100px;
+.asd{
+	align-content: center;
+	padding-left: 5%;
 }
 
 
@@ -2009,7 +2003,7 @@ i.icon-white {
 }
 	
 .btn-reg {
-	background: transparent;
+	background: #d89a15;;
     border: 2px solid #ffffff;
     color: #ffffff;
     text-transform: uppercase;
