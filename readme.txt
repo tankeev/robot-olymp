@@ -43,5 +43,10 @@ Modify your settings.py so that it shows an absolute path for your database, for
 DATABASE_NAME = '/var/www/dashboardapp/whatever/path/db.sqlite3'
 Then type the following commands at the Linux prompt to set the correct privileges:
 
-chown www-data /var/www/dashboardapp/whatever/path/
-chown www-data /var/www/dashboardapp/whatever/path/db.sqlite3
+chown www-data /var/www/robot_olymp/
+chown www-data /var/www/robot_olymp/db.sqlite3
+
+
+
+
+git add file.name && git commit -m "removed merge conflicts
